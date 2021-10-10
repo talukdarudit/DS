@@ -2,7 +2,6 @@
 
 void convertTo2D(int *arr,int **res, int rows, int columns){
     int k=0;
-    int res[rows][columns];
     for(int i=0; i<rows; ++i){
         for(int j=0; j<columns; ++j){
             res[i][j]=arr[k];
@@ -22,9 +21,9 @@ void print2DArray(int **res, int rows, int columns){
 int main(){
     int rows, columns;
     scanf("%d %d", &rows, &columns);
-    int arr[rows*cols];
+    int arr[rows*columns];
     int res[rows][columns];
-    for(int i=0; i<rows*cols; ++i){
+    for(int i=0; i<rows*columns; ++i){
         scanf("%d", &arr[i]);
     }
     printf("\n");
