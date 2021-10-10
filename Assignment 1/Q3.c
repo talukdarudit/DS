@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void convertTo2D(int *arr,int **res int rows, int columns){
+void convertTo2D(int *arr,int **res, int rows, int columns){
     int k=0;
     int res[rows][columns];
     for(int i=0; i<rows; ++i){
