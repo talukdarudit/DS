@@ -29,6 +29,6 @@ int main(){
     }
     printf("\n");
     convertTo2D(arr, rows, columns);
-    print2DArrayy(res, rows, columns);
+    print2DArray(res, rows, columns);
     return 0;
 }
