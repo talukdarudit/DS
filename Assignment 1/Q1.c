@@ -24,7 +24,7 @@ int isValidFloat(char* num){
 
 int main(){
     char num[20];
-    scanf("%c", &num);
+    scanf("%[^\n]%*c", num);
 
     if(isValidFloat(num)==1){
         printf("Valid\n");
